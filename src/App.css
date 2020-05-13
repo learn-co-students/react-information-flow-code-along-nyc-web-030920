@@ -71,6 +71,10 @@
   animation: flash 1s forwards ease-in-out infinite;
 }
 
+body {
+  animation: background-shimmer 10s forwards ease-in-out infinite;
+}
+
 @keyframes flash {
   0% { border-color: #333; }
   50% { border-color: #fff; }
